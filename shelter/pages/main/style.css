@@ -352,4 +352,52 @@
    * END NORMALIZE FILE
    */
 
+/*
+ * ========START OWN STYLES
+*/
 
+.dark-wrapper {
+    background-image: url(/eugenemusic-JSFE2022Q1/shelter/assets/images/start-screen-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    width: 443px;
+    height: 28px;
+    list-style-type: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.white-wrapper {
+    background-color: #fff;
+}
+.grey-wrapper {
+    background-color: #F6F6F6;
+}
+.wrapper1 {
+    height: 908px;
+}
+.wrapper2 {
+    height: 588px;
+}
+.wrapper3 {
+    height: 877px;
+}
+.wrapper4 {
+    height: 611px;
+}
+.wrapper5 {
+    height: 462px;
+}
+.wrapper6 {
+    height: 350px;
+}
