@@ -420,6 +420,107 @@ letter-spacing: 0.06em;
 
 color: #545454;
 }
+.content1 {
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+/* or 24px */
+
+display: flex;
+align-items: center;
+
+/* color-dark-s */
+
+color: #CDCDCD;
+}
+.logo_subtitle {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    
+    /* color-light-xl */
+    
+    color: #FFFFFF;
+}
+.content2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 24px */
+    
+    /* display: flex; */
+    align-items: center;
+    
+    /* color-dark-xl */
+    
+    color: #4C4C4C;
+}
+.tool-text {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    /* color-dark-l */
+    
+    color: #545454;
+}
+.content5 > p {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    
+    /* color-dark-l */
+    
+    color: #545454;
+}
+.content5 .description {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* color-dark-m */
+    
+    color: #B2B2B2;
+}
+.credit {
+    width: 30px;
+    height: 23px;
+    display: inline-block;
+    background: #292929;
+    position: absolute;
+}
 .nav_list {
     display: flex;
     justify-content: space-between;
