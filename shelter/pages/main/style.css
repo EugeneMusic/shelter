@@ -357,10 +357,23 @@
 */
 
 .dark-wrapper {
-    background-image: url(/eugenemusic-JSFE2022Q1/shelter/assets/images/start-screen-background.jpg);
+    background-image: url(/eugenemusic-JSFE2022Q1/shelter/assets/images/footer-gradient-background.png);
+    background-repeat:repeat-y;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+/* .dark-wrapper:before {
+    content: "";
+    position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: url(/eugenemusic-JSFE2022Q1/shelter/assets/images/footer-gradient-background.png);
+  } */
 .nav_list {
     display: flex;
     justify-content: space-between;
