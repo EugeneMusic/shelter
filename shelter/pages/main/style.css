@@ -374,6 +374,52 @@
     width: 100%;
     background: url(/eugenemusic-JSFE2022Q1/shelter/assets/images/footer-gradient-background.png);
   } */
+
+.h1 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+/* or 35px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+/* color-primary */
+    color: #F1CDB3;
+}
+.h2 {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 130%;
+/* or 57px */
+
+display: flex;
+align-items: center;
+
+/* color-light-xl */
+
+color: #FFFFFF;
+}
+.h3 {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+/* or 45px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+/* color-dark-l */
+
+color: #545454;
+}
 .nav_list {
     display: flex;
     justify-content: space-between;
@@ -381,7 +427,7 @@
     height: 28px;
     list-style-type: none;
 }
-.header {
+.header, .section, footer {
     display: flex;
     justify-content: space-between;
 }
@@ -413,4 +459,14 @@
 }
 .wrapper6 {
     height: 350px;
+}
+.friends-section, .help-section, .tool{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.tool {
+    display: flex;
+}
+.pets-cards, .help-tools {
+    display: flex;
 }
