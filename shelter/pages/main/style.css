@@ -654,13 +654,75 @@ a {
 }
 .title3 .h3 {
     margin-top: 80px;
+    margin-bottom: 60px;
     width: 400px;
     height: 90px;
     text-align: center;
+}
+.learn-more, .arrow-left, .arrow-right{
+    border: 2px solid #F1CDB3;
+    background-color: #FAFAFA;
+}
+.learn-more {
+    margin-bottom: 30px;
+    width: 187px;
+    height: 52px;
+}
+.arrow-left, .arrow-right{
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+}
+.arrow-left {
+    margin-right: 53px;
+}
+.arrow-right {
+    margin-left: 53px;
 }
 .tool {
     display: flex;
 }
 .pets-cards, .help-tools {
     display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.pets-cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.pet-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+    width: 270px;
+    height: 435px;
+}
+.name {
+    /* pets-card-title */
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+/* color-dark-l */
+
+color: #545454;
+}
+.get {
+    width: 261px;
+    height: 52px;
 }
