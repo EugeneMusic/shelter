@@ -355,6 +355,9 @@
 /*
  * ========START OWN STYLES
 */
+* {
+    box-sizing: border-box;
+}
 
 .dark-wrapper {
     background-image: url(/eugenemusic-JSFE2022Q1/shelter/assets/images/footer-gradient-background.png);
@@ -527,13 +530,44 @@ color: #CDCDCD;
     width: 443px;
     height: 28px;
     list-style-type: none;
+    padding-left: 0;
+}
+.nav_list li:first-child {
+    border-bottom: 3px solid #F1CDB3 ;
 }
 .header, .section, footer {
     display: flex;
     justify-content: space-between;
 }
+.header {
+    height: 60px;
+    padding: 60px 0;
+}
+.logo_subtitle {
+    padding-left: 4px;
+}
+.nav_list > li > a {
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+/* identical to box height, or 24px */
+/* color-light-s */
+color: #FAFAFA;
+}
+.logo_link {
+    width: 184px;
+    height: 60px;
+}
+a {
+    text-decoration: none;
+}
+.h1 {
+    margin: 0 0 10px 0;
+}
 .container {
-    max-width: 1280px;
+    width: 1280px;
     padding: 0 40px;
     margin: 0 auto;
 }
