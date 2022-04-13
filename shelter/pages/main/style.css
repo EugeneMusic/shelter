@@ -358,7 +358,11 @@
 * {
     box-sizing: border-box;
 }
-
+.container {
+    width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
 .dark-wrapper {
     background-image: url(/eugenemusic-JSFE2022Q1/shelter/assets/images/footer-gradient-background.png);
     background-repeat:repeat-y;
@@ -482,6 +486,18 @@ margin-bottom: 42px;
     cursor: pointer;
 
 }
+.about-section {
+    padding: 0 215px;
+}
+.page2-text {
+    padding-top: 94px;
+    padding-bottom: 114px;
+}
+.title2 .h3 {
+width: 370px;
+height: 90px;
+text-align: left;
+}
 .content2 {
     font-family: 'Arial';
     font-style: normal;
@@ -489,13 +505,19 @@ margin-bottom: 42px;
     font-size: 15px;
     line-height: 160%;
     /* or 24px */
-    
     /* display: flex; */
     align-items: center;
-    
     /* color-dark-xl */
-    
     color: #4C4C4C;
+    width: 430px;
+}
+.content2 p {
+    margin-top: 25px;
+}
+.about-img {
+    width: 300px;
+    height: 408px;
+    margin-top: 80px;
 }
 .tool-text {
     font-family: 'Georgia';
@@ -504,14 +526,11 @@ margin-bottom: 42px;
     font-size: 20px;
     line-height: 115%;
     /* identical to box height, or 23px */
-    
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    
     /* color-dark-l */
-    
     color: #545454;
 }
 .content5 > p {
@@ -521,13 +540,10 @@ margin-bottom: 42px;
     font-size: 15px;
     line-height: 110%;
     /* identical to box height, or 17px */
-    
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
-    
     /* color-dark-l */
-    
     color: #545454;
 }
 .content5 .description {
@@ -578,7 +594,7 @@ margin-bottom: 42px;
     width: 310px;
     padding-bottom: 42px;
 }
-.h2 {
+.h2, .h3 {
     margin: 0;
 }
 .logo_subtitle {
@@ -603,11 +619,6 @@ a {
 }
 .h1 {
     margin: 0 0 10px 0;
-}
-.container {
-    width: 1280px;
-    padding: 0 40px;
-    margin: 0 auto;
 }
 .white-wrapper {
     background-color: #fff;
@@ -636,6 +647,16 @@ a {
 .friends-section, .help-section, .tool{
     flex-direction: column;
     flex-wrap: wrap;
+}
+.friends-section {
+    justify-content: center;
+    align-items: center;
+}
+.title3 .h3 {
+    margin-top: 80px;
+    width: 400px;
+    height: 90px;
+    text-align: center;
 }
 .tool {
     display: flex;
