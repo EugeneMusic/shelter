@@ -573,9 +573,9 @@ text-align: left;
 .credit {
     width: 30px;
     height: 23px;
-    display: inline-block;
-    background: #292929;
-    position: absolute;
+    display: block;
+    filter: invert(12%) sepia(27%) saturate(11%) hue-rotate(42deg) brightness(96%) contrast(90%);
+    
 }
 .nav_list {
     display: flex;
@@ -753,4 +753,46 @@ color: #545454;
     column-gap: 119px;
     row-gap: 55px;
     justify-content: center;
+}
+.donation-section {
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.page5-text {
+    width: 380px;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title5 .h3 {
+    text-align: left;
+}
+.donation-img {
+    height: 262px;
+}
+.content5 .button {
+    width: 349px;
+    height: 43px;
+    border-radius: 9px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    /* color-dark-l */
+    color: #545454;
+    padding: 10px 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.content5 p {
+    margin: 20px 0 0 0;
 }
