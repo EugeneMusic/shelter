@@ -648,16 +648,17 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
 }
-.friends-section {
+.friends-section, .help-section {
     justify-content: center;
     align-items: center;
 }
-.title3 .h3 {
+.title3 .h3, .title4 .h3 {
     margin-top: 80px;
     margin-bottom: 60px;
     width: 400px;
     height: 90px;
     text-align: center;
+    justify-content: center;
 }
 .learn-more, .arrow-left, .arrow-right{
     border: 2px solid #F1CDB3;
@@ -725,4 +726,22 @@ color: #545454;
 .get {
     width: 261px;
     height: 52px;
+}
+.tool-img {
+    width: 60px;
+    height: 60px;
+}
+.tool {
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.help-tools {
+    flex-wrap: wrap;
+    width: 1026px;
+    column-gap: 119px;
+    row-gap: 55px;
+    justify-content: center;
 }
