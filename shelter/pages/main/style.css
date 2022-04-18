@@ -496,11 +496,11 @@ margin-bottom: 42px;
 
 }
 .about-section {
-    padding: 0 215px;
+    padding: 80px 215px 100px;
 }
 .page2-text {
-    padding-top: 94px;
-    padding-bottom: 114px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 .title2 .h3 {
 width: 370px;
@@ -526,7 +526,6 @@ text-align: left;
 .about-img {
     width: 300px;
     height: 408px;
-    margin-top: 80px;
 }
 .tool-text {
     font-family: 'Georgia';
@@ -638,24 +637,13 @@ a {
 .grey-wrapper {
     background-color: #F6F6F6;
 }
-.wrapper1 {
-    height: 908px;
+
+.wrapper3, .wrapper5, .wrapper4  {
+    padding-bottom: 100px;
 }
-.wrapper2 {
-    height: 588px;
-}
-.wrapper3 {
-    height: 877px;
-}
-.wrapper4 {
-    height: 611px;
-}
-.wrapper5 {
-    height: 462px;
-}
-.wrapper6 {
+/* .wrapper6 {
     height: 350px;
-}
+} */
 .friends-section, .help-section, .tool{
     flex-direction: column;
     flex-wrap: wrap;
@@ -688,9 +676,11 @@ a {
 }
 .arrow-left {
     margin-right: 53px;
+    flex-grow: 1;
 }
 .arrow-right {
     margin-left: 53px;
+    flex-grow: 1;
 }
 .tool {
     display: flex;
@@ -698,7 +688,9 @@ a {
 .pets-cards, .help-tools {
     display: flex;
     justify-content: space-between;
-    width: 990px;
+    max-width: 990px;
+    gap: 90px;
+    flex-grow: 0;
 }
 .pets-cards-container {
     display: flex;
@@ -713,8 +705,8 @@ a {
     justify-content: space-between;
     background-color: #FAFAFA;
     border-radius: 9px;
-    width: 270px;
-    height: 435px;
+    max-width: 270px;
+    height: 100%;
 }
 .name {
     /* pets-card-title */
@@ -752,10 +744,10 @@ color: #545454;
 }
 .help-tools {
     flex-wrap: wrap;
-    width: 1026px;
     column-gap: 119px;
     row-gap: 55px;
     justify-content: center;
+    max-width: 1026px;
 }
 .donation-section {
     padding-top: 80px;
@@ -877,4 +869,32 @@ color: #F1CDB3;
 }
 .map-icon-link:hover {
     cursor: pointer;
+}
+@media (max-width: 1260px) {
+    .pet-card3 {
+        display: none;
+    }
+    .title1 {
+        padding-top: 60px;
+    }
+    .welcome-section {
+        justify-content: center;
+    }
+    .welcome-img {
+        margin: 100px 0 0 auto;
+        width: 569px;
+        height: 593px;
+        align-self: flex-end;
+    }
+    .container {
+        padding: 0 30px;
+    }
+    .about-section {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        padding: 66px 0 100px;
+    }
+    .about-img {
+        margin-top: 66px;
+    }
 }
