@@ -898,6 +898,9 @@ color: #F1CDB3;
         width: 170px;
         height: 113px;
     }
+    .donation-section {
+        padding-top: 80px;
+    }
     .title1 {
         padding-top: 60px;
     }
@@ -912,6 +915,16 @@ color: #F1CDB3;
     }
     .container {
         padding: 0 30px;
+    }
+    .donation-section {
+        padding-top: 80px;
+        flex-direction: column-reverse;
+        row-gap: 60px;
+    }
+    .footer {
+        justify-content: center;
+        column-gap: 60px;
+        row-gap: 25px;
     }
     .about-section {
         flex-direction: column-reverse;
