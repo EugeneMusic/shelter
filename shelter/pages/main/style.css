@@ -496,7 +496,7 @@ margin-bottom: 42px;
 
 }
 .about-section {
-    padding: 80px 215px 100px;
+    padding: 80px 215px 86px;
 }
 .page2-text {
     padding-top: 14px;
@@ -707,6 +707,7 @@ a {
     border-radius: 9px;
     max-width: 270px;
     height: 100%;
+    gap:30px;
 }
 .name {
     /* pets-card-title */
@@ -808,8 +809,8 @@ letter-spacing: 0.06em;
 
 color: #FFFFFF;
 }
-.title6 {
-    padding-top: 16px;
+.title6-1 {
+    padding-bottom: 6px;
 }
 .content6 , .content6 a {
     font-family: 'Georgia';
@@ -827,18 +828,19 @@ color: #F1CDB3;
 }
 .page6-text {
     width: 279px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 16px;
 }
 .page6-text2 {
     width: 302px;
 }
-.content6 .p {
-    margin-bottom: 40px;
+.p {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-.content6 {
-    margin-top: 40px;
 }
 .mail-icon {
     background-image: url(../../assets/icons/icon-email.svg);
@@ -879,7 +881,10 @@ color: #F1CDB3;
 }
 .burger-icon:hover {
     cursor: pointer;
-  }
+}
+.wrapper {
+    overflow: hidden;
+}
 @media (max-width: 1279px) {
     .header {
         padding: 30px 0 0 0;
@@ -942,7 +947,10 @@ color: #F1CDB3;
         padding: 66px 0 100px;
     }
     .about-img {
-        margin-top: 66px;
+        margin-top: 65px;
+    }
+    .page2-text {
+        padding: 0;
     }
 }
 @media (max-width: 767px) {
@@ -957,6 +965,7 @@ color: #F1CDB3;
         position: relative;
         height: 22px;
         width: 30px;
+        margin-right: 53px;
         /* order: 3; */
       }
       .burger-icon span,
@@ -996,5 +1005,34 @@ color: #F1CDB3;
         top:50%;
         transform: rotate(90deg) translate(0px, -10px);
       }
+      .pet-card2 {
+        display: none;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    .h2 {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        /* or 32px */
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        
+        /* color-light-xl */
+        
+        color: #FFFFFF;
+    }
+    .pets-cards-container {
+        flex-wrap: wrap;
+    }
+    .pets-cards {
+        order: -1;
+    }
 
 }
