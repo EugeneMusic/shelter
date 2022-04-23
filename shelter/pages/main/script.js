@@ -5,3 +5,4 @@ burger.addEventListener('click', () => {
     // menu.classList.toggle('menu_active');
     // body.classList.toggle('body_active');
 });
+document.querySelector('.autofocus').focus()
