@@ -6,3 +6,5 @@ burger.addEventListener('click', () => {
     // body.classList.toggle('body_active');
 });
 document.querySelector('.autofocus').focus()
+
+alert("Огромная просьба!!! Пожалуйста, проверьте работу как можно позже, совсем не успеваю. Буду очень благодарен!")
