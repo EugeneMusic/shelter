@@ -676,7 +676,8 @@ template {
 }
 
 .header {
-    padding: 60px 0;
+    padding: 90px 0;
+    padding-top: 30px;
 }
 
 .title1 {
