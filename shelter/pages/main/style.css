@@ -420,7 +420,7 @@ template {
     background: url(/eugenemusic-JSFE2022Q1/shelter/assets/images/footer-gradient-background.png);
   } */
 
-.h1 {
+#h1 {
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -717,7 +717,7 @@ a {
     text-decoration: none;
 }
 
-.h1 {
+#h1 {
     margin: 0 0 10px 0;
 }
 
