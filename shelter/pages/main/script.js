@@ -21,7 +21,7 @@ body.addEventListener('click', (event) => {
 });
 items.addEventListener('click', (event) => {
     console.log(!event.target.classList.contains('nav'));
-    if (event.target.className == '' && !event.target.classList.contains('nav')) {
+    if ((event.target.className == '' || event.target.className == 'autofocus') && !event.target.classList.contains('nav')) {
         burger.classList.remove('burger-icon_active');
         nav.classList.remove('nav_active');
         body.classList.remove('body_active');
