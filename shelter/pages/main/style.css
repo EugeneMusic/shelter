@@ -1180,8 +1180,8 @@ a {
         position: fixed;
         height: 22px;
         width: 30px;
-        top: 45px;
-        right: 53px;
+        top: 49px;
+        right: 24px;
         z-index: 20;
         /* order: 3; */
     }
@@ -1235,6 +1235,8 @@ a {
     /* ============================================================================= */
     .header {
         align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .welcome-img {
