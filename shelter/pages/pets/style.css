@@ -406,7 +406,6 @@ template {
 
 .wrapper1 {
     background-color: #FFFFFF;
-    position: sticky;
     top: 0;
 }
 
@@ -762,6 +761,7 @@ a {
 .burger-icon:hover {
     cursor: pointer;
 }
+
 .logo-burger {
     display: none;
 }
@@ -774,11 +774,23 @@ a {
 
     .pets-cards {
         gap: 40px;
+        row-gap: 30px;
         justify-content: center;
+    }
+
+    .pets-cards-container {
+        margin-bottom: 40px;
     }
 
     .title1 {
         padding-top: 60px;
+    }
+
+    .title3 .h3 {
+        margin-bottom: 30px;
+    }
+    .wrapper3 {
+        padding-bottom: 75px;
     }
 
     .container {
@@ -803,7 +815,8 @@ a {
     .nav {
         position: fixed;
         width: 320px;
-        background-color: #FFFFFF;;
+        background-color: #FFFFFF;
+        ;
         top: 0;
         height: 100%;
         margin-left: 100vw;
@@ -862,6 +875,7 @@ a {
     .nav_list li a:focus, .nav_list li a:hover {
         color: #545454;
     }
+
     .logo-burger {
         display: block;
         position: relative;
@@ -873,6 +887,7 @@ a {
         z-index: 20;
         /* order: 3; */
     }
+
     .burger-icon {
         display: block;
         position: fixed;
@@ -984,6 +999,7 @@ a {
         margin: 0 auto;
         height: auto;
     }
+
 
     .content2 p {
         text-align: justify;
