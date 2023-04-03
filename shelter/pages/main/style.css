@@ -397,7 +397,7 @@ template {
 }
 
 .dark-wrapper {
-    background-image: url(/eugenemusic-JSFE2022Q1/shelter/assets/images/footer-gradient-background.png);
+    background-image: url(../../assets/images/footer-gradient-background.png);
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center center;
@@ -405,7 +405,7 @@ template {
 }
 
 .wrapper1 {
-    background-image: url(/eugenemusic-JSFE2022Q1/shelter/assets/images/start-screen-background.jpg);
+    background-image: url(../../assets/images/start-screen-background.jpg);
 }
 
 /* .dark-wrapper:before {
